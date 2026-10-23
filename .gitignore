@@ -1,0 +1,31 @@
+# Jangan pernah commit data sensitif hasil pengujian.
+# Simpan temuan aktif & kredensial secara privat, bukan di repo.
+
+# Catatan privat / rahasia (buat file dengan akhiran .private atau di folder private/)
+*.private
+*.private.md
+private/
+secrets/
+.env
+.env.*
+
+# Kredensial & token
+*.pem
+*.key
+credentials*
+tokens*
+*cookies*
+*session*
+
+# Output tools (bisa besar / berisi data target)
+*.log
+output/
+recon/
+scans/
+*.har
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
